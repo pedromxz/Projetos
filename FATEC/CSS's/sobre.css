@@ -1,0 +1,94 @@
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Cabeçalho */
+header {
+    background-color: #af2c2c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+nav a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #555;
+}
+
+/* Corpo do documento */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Cabeçalho do documento */
+header {
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Seção do documento */
+section {
+    padding: 20px;
+}
+
+/* Informações do curso */
+.course-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-info p {
+    margin: 10px 0;
+}
+
+.course-info ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Container do mapa */
+.map-container {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #af2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Media query para dispositivos com largura máxima de 768px */
+@media screen and (max-width: 768px) {
+    .map-container {
+        height: 300px;
+    }
+}
+
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fatec Jahu - GTI</title>
+<link rel="stylesheet" href="CSS's/contato.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Curso de Gestão de Tecnologia da Informação da Fatec Jahu</h1>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="tabela grade.html">Grade</a>
+        <a href="contato.html">Inscreva-se</a>
+        <a href="professores.html">Professores</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+        <div id="corpo">
+          <main>
+            <h2 id="cadastro_texto">Inscreva-se</h2>
+            <!--Usamos o form para criar um formulario--> 
+            <form action="outra_pagina.html" method="get">
+              <fieldset>
+                <legend>Dados Pessoais</legend>
+                
+                <label>
+                  Nome: <input type="text" name="txt_nome" placeholder="Seu nome completo" required/>
+                </label>
+                
+                <label class="label-50">
+                  E-mail: <input type="email" name="txt_email" placeholder="Seu email" required/>
+                </label>
+                
+                <label class="label-50">
+                  Telefone: <input type="number" name="txt_telefone" placeholder="Seu telefone" required/>
+                </label>
+                
+                <label class="label-50">
+                  Data de Nascimento: <input type="date" name="txt_data" required/>
+                </label>
+                
+                <label class="label-50">
+                  Cidade de Origem: <input type="text" name="txt_cpf" placeholder="Onde você nasceu" required/>
+                </label>
+              </fieldset>
+              
+              <p class="center">
+                <button type="submit" class="botao-enviar">Enviar</button>
+                <button type="reset">Limpar</button>
+              </p>
+            </form>
+          </main>
+        </div>
+        <footer>
+            <p>Fatec Jaú - Faculdade de Tecnologia | Rua Polônia, 45 - Jardim Pedro Ometto, Jaú - SP, 17210-540</p>
+       </footer>   
+</body>   
+</html>
